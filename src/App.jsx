@@ -1,18 +1,13 @@
-// import './App.css'
-// import Fetchapi from "./Fetchapi"
-// import Expense from "./expense_Tracker/Expense"
-import Pokeman from "./pokeman/Pokeman"
+import UseRef from "./useRef/UseRef";
 
 function App() {
-  return (
-    <div >
-     {/* <Fetchapi /> */}
-      
-      {/* <Expense /> */}
 
-      <Pokeman />
+  return (
+    <div>
+      <h1>hello</h1>
+        <UseRef />
     </div>
   )
 }
 
-export default App
+export default App;
